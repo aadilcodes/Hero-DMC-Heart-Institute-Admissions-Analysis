@@ -1,15 +1,3 @@
----
-title: "DMC Heart Admissions"
-author: "Aadil"
-output: html_document
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Healthcare Admissions Analysis Report: Hero DMC Heart Institute
 
