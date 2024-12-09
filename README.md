@@ -1,3 +1,7 @@
+**Executive Summary**  
+*This report analyzes admissions data from the Hero DMC Heart Institute, uncovering key patterns to support operational planning and decision-making. Insights focus on admission trends, including seasonal peaks, demographic and regional distributions, and gender-based ratios. Emergency Room (ER) admissions show significant seasonal variation, with higher rates among older male patients. Outpatient Department (OPD) visits are steady but reveal urban dominance and underutilization by rural populations. By leveraging PostgreSQL and Power BI, the analysis highlights data-driven insights crucial for resource allocation and healthcare delivery planning.*  
+
+*The findings align with industry-standard healthcare metrics, providing a clear foundation for monitoring and improving hospital performance.*  
 
 # Healthcare Admissions Analysis Report: Hero DMC Heart Institute
 
@@ -68,7 +72,6 @@ The original dataset was normalized and split into separate tables for: - **Pati
 **PostgreSQL Queries**:
 - Designed views and Common Table Expressions (CTEs) to calculate KPIs.
 - Queries showcase JOINs to analyze data relationships efficiently.
-[Explore Queries on GitHub](#)
 
 ## Dashboard Integration
 
@@ -76,11 +79,10 @@ An interactive Power BI dashboard is embedded to visualize key trends, including
 - Monthly ER and OPD admission trends.
 - Age and gender distribution of admissions.
 - Rural vs. urban admission patterns.
-- Impact of comorbidities on length of stay and outcomes.
+- Admission rate by Department and Gender.
 
 [View Interactive Dashboard](https://app.powerbi.com/groups/me/reports/2721d857-7dd2-465e-af67-f3384318f158/ReportSection?experience=power-bi)
 
 ## Conclusion
 
-This analysis highlights critical trends in hospital admissions, providing actionable insights into peak times, demographic patterns, and the influence of comorbidities.
-It demonstrates data-driven methods for enhancing operational efficiency and patient care planning.
+This analysis of admissions data from Hero DMC Heart Institute highlights significant patterns in hospital operations. Emergency admissions peak during winter months, primarily among older male patients, while outpatient admissions remain steady. Urban areas account for the majority of emergency visits, with gender trends consistently showing higher male admission rates. The data underscores critical trends in resource utilization and demographic distributions, offering a clear foundation for strategic decisions.
