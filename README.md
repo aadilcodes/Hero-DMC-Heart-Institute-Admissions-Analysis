@@ -18,25 +18,24 @@ The analysis focuses on admissions peak times, demographic and regional trends, 
 
 ### 1. Admission Types and Peak Times
 
-**Objective**: Identify peak admission periods for ER and OPD admissions.\
-**Findings**:\
-- Peak ER admissions occurred in January 2019 (622 cases), while peak OPD admissions occurred in March 2019 (277 cases).\
-- ER admissions spiked during winter months, whereas OPD admissions were more stable, with minor variations by season.\
+**Objective**: Identify peak admission periods for ER and OPD admissions.
+**Findings**:
+- Peak ER admissions occurred in January 2019 (622 cases), while peak OPD admissions occurred in March 2019 (277 cases).
+- ER admissions spiked during winter months, whereas OPD admissions were more stable, with minor variations by season.
 
 ### 2. Demographic Trends
 
-**Objective**: Analyze age and gender distribution for ER and OPD admissions.\
-**Findings**:\
-- The highest ER admissions were among men aged 51-65 (2,880 cases) 26.4%, followed by men aged 66+ (2,711 cases) 24.8% .\
-- OPD admissions were also predominantly among older age groups, with men aged 51-65 leading at (1,412 cases) 29.23% .\
-
+**Objective**: Analyze age and gender distribution for ER and OPD admissions.
+**Findings**:
+- The highest ER admissions were among men aged 51-65 (2,880 cases) 26.4%, followed by men aged 66+ (2,711 cases) 24.8% .
+- OPD admissions were also predominantly among older age groups, with men aged 51-65 leading at (1,412 cases) 29.23% .
 
 ### 3. Regional Analysis
 
-**Objective**: Evaluate differences in admissions between rural and urban populations.\
-**Findings**:\
-- Urban patients accounted for a majority of ER admissions, particularly in November 2018 (403 cases).\
-- Rural patients showed relatively lower OPD visits, with peaks in February 2019 (59 cases).\
+**Objective**: Evaluate differences in admissions between rural and urban populations.
+**Findings**:
+- Urban patients accounted for a majority of ER admissions, particularly in November 2018 (403 cases).
+- Rural patients showed relatively lower OPD visits, with peaks in February 2019 (59 cases).
 
 ### 4. Admission Rate by Admission Type
 
@@ -66,17 +65,17 @@ The original dataset was normalized and split into separate tables for: - **Pati
 - **Diagnoses**: Specific diagnoses and conditions.
 - **Time Period**: Month and year details for temporal analysis.
 
-**PostgreSQL Queries**:\
-- Designed views and Common Table Expressions (CTEs) to calculate KPIs.\
-- Queries showcase JOINs to analyze data relationships efficiently.\
+**PostgreSQL Queries**:
+- Designed views and Common Table Expressions (CTEs) to calculate KPIs.
+- Queries showcase JOINs to analyze data relationships efficiently.
 [Explore Queries on GitHub](#)
 
 ## Dashboard Integration
 
-An interactive Power BI dashboard is embedded to visualize key trends, including:\
-- Monthly ER and OPD admission trends.\
-- Age and gender distribution of admissions.\
-- Rural vs. urban admission patterns.\
+An interactive Power BI dashboard is embedded to visualize key trends, including:
+- Monthly ER and OPD admission trends.
+- Age and gender distribution of admissions.
+- Rural vs. urban admission patterns.
 - Impact of comorbidities on length of stay and outcomes.
 
 [View Interactive Dashboard](https://app.powerbi.com/groups/me/reports/2721d857-7dd2-465e-af67-f3384318f158/ReportSection?experience=power-bi)
