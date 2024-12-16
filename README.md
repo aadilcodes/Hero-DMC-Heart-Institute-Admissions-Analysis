@@ -3,6 +3,8 @@
 
 *The findings align with industry-standard healthcare metrics, providing a clear foundation for monitoring and improving hospital performance.*  
 
+![DMC Dashboard](dmcpic.JPG)
+
 # Healthcare Admissions Analysis Report: Hero DMC Heart Institute
 
 ## Overview
